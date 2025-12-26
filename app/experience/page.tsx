@@ -18,10 +18,66 @@ export default function ExperiencePage() {
           <CardHeader className="pb-2">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
               <div>
+                <CardTitle>Full Stack Developer @ Swift Transportation</CardTitle>
+                <CardDescription>Dallas, TX, USA</CardDescription>
+              </div>
+              <div className="text-sm text-muted-foreground">Oct 2025 - Present</div>
+            </div>
+          </CardHeader>
+          <CardContent>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>
+                Architected the GMAdjustment module for the Pricing API using C# and Elasticsearch, enabling efficient management 
+                and real-time indexing of complex logistics lane configuration records.
+              </li>
+              <li>
+                Developed responsive interfaces in Vue.js integrated with .NET Core services, streamlining the data synchronization
+                pipeline between front-end pricing tools and back-end data stores.
+              </li>
+              <li>
+                Optimized API endpoints for the Global View platform, improving the accuracy of logistics data retrieval and reducing
+                latency for high-volume pricing requests.
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="pb-2">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+              <div>
+                <CardTitle>Founding Software Engineer @ Acquisition AI</CardTitle>
+                <CardDescription>Dallas, TX, USA</CardDescription>
+              </div>
+              <div className="text-sm text-muted-foreground">July 2025 - Sep 2025</div>
+            </div>
+          </CardHeader>
+          <CardContent>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>
+                Led full-stack development of a real-time AI phone agent platform, designing scalable APIs and implementing security
+                protocols, boosting system reliability by 58%.
+              </li>
+              <li>
+                Developed backend services with Node.js, Express, and Supabase, using Docker, Kubernetes, and CI/CD pipelines to
+                cut deployment time by 63% and double request handling capacity.
+              </li>
+              <li>
+                Integrated AI/NLP features including Bland AI and custom LLMs, improving response accuracy by 47% through testing,
+                benchmarking, and code optimization.
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="pb-2">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+              <div>
                 <CardTitle>Software Engineer @ LogixHealth</CardTitle>
                 <CardDescription>Bedford, MA, USA</CardDescription>
               </div>
-              <div className="text-sm text-muted-foreground">September 2023 - February 2025</div>
+              <div className="text-sm text-muted-foreground">Sep 2023 - Feb 2025</div>
             </div>
           </CardHeader>
           <CardContent>
@@ -63,7 +119,7 @@ export default function ExperiencePage() {
                 <CardTitle>Software Engineer @ Code Trade PVT LTD.</CardTitle>
                 <CardDescription>Gujarat, India</CardDescription>
               </div>
-              <div className="text-sm text-muted-foreground">November 2019 - March 2021</div>
+              <div className="text-sm text-muted-foreground">Nov 2019 - Mar 2021</div>
             </div>
           </CardHeader>
           <CardContent>

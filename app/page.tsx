@@ -16,7 +16,7 @@ export default function Home() {
                 <p className="text-1xl font-bold tracking-tighter sm:text-1xl xl:text-2xl/none transition-transform duration-500 ease-out transform hover:scale-105">Full Stack Developer</p>
               </div>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              Software Engineer with 3+ years of experience building scalable web applications using C#, .NET, Java, and Spring Boot, with strong frontend skills in Angular and React, and solid expertise in SQL Server and database optimization.
+              Software Engineer with 3+ years of experience building scalable web applications using C#, .NET, Java, and Spring Boot, with strong frontend skills in Angular and React, vue.Js and solid expertise in SQL Server and database optimization.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link href="/contact">
@@ -25,7 +25,7 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Button variant="outline" className="w-full min-[400px]:w-auto">
-                    <a href="/Krina_Resume.pdf" download className="flex items-center">
+                    <a href="/PatelKrina_Resume (5).pdf" download className="flex items-center">
                     Download Resume <Download className="ml-2 h-4 w-4" />
                     </a>
                 </Button>
@@ -84,13 +84,13 @@ export default function Home() {
             <div className="rounded-lg border bg-card p-4 shadow-sm transition-transform duration-500 ease-out transform hover:scale-105">
               <h3 className="font-semibold transition-transform duration-500 ease-out transform hover:scale-105">Programming Languages</h3>
               <p className="text-sm text-muted-foreground mt-2">
-                C#, Python, C/C++, Java, HTML5, CSS3, JavaScript, node.js, React JS, Angular, Hibernate
+                C#, Python, C/C++, Java, HTML5, CSS3, JavaScript, node.js, React JS, Angular, Vue,Js
               </p>
             </div>
             <div className="rounded-lg border bg-card p-4 shadow-sm transition-transform duration-500 ease-out transform hover:scale-105">
               <h3 className="font-semibold transition-transform duration-500 ease-out transform hover:scale-105">Database</h3>
               <p className="text-sm text-muted-foreground mt-2">
-                MS SQL Server, Oracle, MySQL, MongoDB, PostgreSQL, NoSQL
+                MS SQL Server, Oracle, MySQL, MongoDB, PostgreSQL, NoSQL, ElasticSearch
               </p>
             </div>
             <div className="rounded-lg border bg-card p-4 shadow-sm transition-transform duration-500 ease-out transform hover:scale-105">
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="rounded-lg border bg-card p-4 shadow-sm transition-transform duration-500 ease-out transform hover:scale-105">
               <h3 className="font-semibold transition-transform duration-500 ease-out transform hover:scale-105">Build Tools</h3>
               <p className="text-sm text-muted-foreground mt-2">
-                Maven, Gradle, JUnit, SonarQube, Docker, Jenkins, Jira, Elasticsearch, Azure DevOps, RabbitMQ, Flask
+                Maven, Gradle, JUnit, SonarQube, Docker, Jenkins, Jira, Azure DevOps, RabbitMQ, Flask, Kafka
               </p>
             </div>
             <div className="rounded-lg border bg-card p-4 shadow-sm transition-transform duration-500 ease-out transform hover:scale-105">
@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <div className="rounded-lg border bg-card p-4 shadow-sm transition-transform duration-500 ease-out transform hover:scale-105">
               <h3 className="font-semibold transition-transform duration-500 ease-out transform hover:scale-105">Methodology & Version Control</h3>
-              <p className="text-sm text-muted-foreground mt-2">SDLC, Waterfall, Agile, Git, GitHub, Bitbucket</p>
+              <p className="text-sm text-muted-foreground mt-2">SDLC, Waterfall, Agile, Git, GitHub, GitLab</p>
             </div>
           </div>
         </div>
