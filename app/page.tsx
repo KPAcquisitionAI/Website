@@ -25,7 +25,7 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Button variant="outline" className="w-full min-[400px]:w-auto">
-                    <a href="/PatelKrina_Resume (5).pdf" download className="flex items-center">
+                    <a href="/PatelKrina_Resume.pdf" download className="flex items-center">
                     Download Resume <Download className="ml-2 h-4 w-4" />
                     </a>
                 </Button>
